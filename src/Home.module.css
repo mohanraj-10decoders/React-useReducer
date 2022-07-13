@@ -1,0 +1,26 @@
+h2{
+    background-color: lightgray;
+    color: black;
+    font-weight: bold;
+    padding: 20px 0;
+}
+button{
+    color: white;
+    background-color: #348ceb;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: max-content;
+    border: none;
+}
+.addButton{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    margin: 10px 0;
+}
+.icon{
+    margin: 0 10px;
+}
+.icon:hover{
+    cursor: pointer;
+}

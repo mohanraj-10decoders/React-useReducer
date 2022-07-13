@@ -1,0 +1,88 @@
+h2 {
+    background-color: lightgray;
+    color: black;
+    font-weight: bold;
+    padding: 20px 0;
+    width: 100%;
+}
+
+button {
+    color: white;
+    background-color: #348ceb;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: max-content;
+    border: none;
+}
+
+.addButton {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    margin: 10px 0;
+}
+.heading {
+    color: white;
+    background-color: black;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.allcontent {
+    padding: 20px 30px;
+}
+
+.name,
+.content {
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+.home {
+    background-color: rgb(255, 255, 255, 0.5);
+    width: max-content;
+    min-width: 300px;
+    height: max-content;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h2 {
+    margin: 5px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+input {
+    height: 20px;
+    padding-top: 10px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.input label {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.error {
+    font-size: 0.8rem;
+    color: #f73c2f;
+    text-align: left;
+    font-weight: bold;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
