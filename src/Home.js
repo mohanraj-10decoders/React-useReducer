@@ -112,7 +112,7 @@ export default function Home() {
       </div>
       <Paper style={{ width: '800px', height: '400px', overflow: 'auto' }}>
         <Table>
-          <TableHead>
+          <TableHead style={{ position: 'sticky', top: '0px' }}>
             <TableRow>
               <TableCell style={styles}>Name</TableCell>
               <TableCell style={styles}>Language</TableCell>
@@ -121,7 +121,7 @@ export default function Home() {
               <TableCell style={styles}>Edit/Delete</TableCell>
             </TableRow>
           </TableHead>
-          <TableBody style={{ width: '100%' }}>
+          <TableBody>
             {movies.length ? (
               <>
                 {movies.map((movie) => (
