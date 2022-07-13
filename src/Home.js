@@ -74,7 +74,7 @@ export default function Home() {
       description: 'Movie',
     },
   ];
-  // const [movies, setMovies] = useState([]);
+
   const [movies, dispatch] = useReducer(reducer, initMovies);
 
   const handleDelete = (id) => {
